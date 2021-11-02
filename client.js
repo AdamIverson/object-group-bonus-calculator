@@ -31,6 +31,57 @@ const employees = [
   }
 ];
 
+const yesBonus = [];
+
+employeeInfo){
+ 
+  for (let employee of employeeInfo){
+    if (employee.reviewRating < 2){
+    console.log('no bonus');
+    } else if (employee.reviewRating > 2) {
+      yesbonusPercentage (percentOfBonus)
+
+// function bonusPercentage(amount) {  
+//     for (let employee of employeeInfo);{
+// 
+// }
+// }
+console.log ('who has what bonus',bonusPercentage(employees) ) yesBonus.push(employee);
+      console.log('Bonus');
+  } // end else
+} // end for loop
+//return yesBonus;
+//} // end employeeLoop
+
+console.log(employeeLoop(employees));
+
+console.log('This is who is getting a bonus', yesBonus);
+
+function bonusPercentage (){
+  sum = 0
+  let firstNumber = employees.reviewRating
+  let secondNumber = employees.annualSalary
+  sum = firstNumber * secondNumber
+  return sum;
+}
+
+function reviewDetermine(arr){
+  for (let employee of arr){
+    if (employee.reviewRating ===3 && employee.employeeNumber.length === 4 && employee.annualSalary < 65000) {
+      employee.bonusPercentage === 4;
+    }  
+      }
+}
+function finalFunction(employee) {
+  newArray = [];
+ const newObject = {
+   bonusPercentage: bonusPercentageInput, 
+   totalCompensation: totalCompensationInput, 
+   totalBonus: totalBonusInput, 
+  }
+}
+
+
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // This problem is massive! Break the problem down, take small steps, and test as you go.
